@@ -2,6 +2,8 @@ package com.romejanic.shadertoy;
 
 import com.romejanic.shadertoy.renderer.Renderer;
 import com.romejanic.shadertoy.renderer.Window;
+import com.romejanic.shadertoy.shader.ShaderMeta;
+import com.romejanic.shadertoy.utils.IO;
 
 public class Shadertoy {
 
@@ -10,6 +12,9 @@ public class Shadertoy {
 	private void init() throws Throwable {
 		Window.create(1280, 720, "Shadertoy Desktop");
 		this.renderer.init();
+		
+		ShaderMeta meta = ShaderMeta.parse(IO.getResource("data/XsdGDM.json"));
+		meta.printFull(System.out);
 	}
 	
 	private void update() {
