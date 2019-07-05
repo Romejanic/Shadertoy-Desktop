@@ -8,5 +8,7 @@
 	<classpathentry kind="lib" path="D:/Code/Java/Libraries/lwjgl-release-3.2.2-custom/lwjgl-natives-windows.jar"/>
 	<classpathentry kind="lib" path="D:/Code/Java/Libraries/lwjgl-release-3.2.2-custom/lwjgl-opengl.jar"/>
 	<classpathentry kind="lib" path="D:/Code/Java/Libraries/lwjgl-release-3.2.2-custom/lwjgl-opengl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="D:/Code/Java/Libraries/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/Code/Java/Libraries/PNGDecoder.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

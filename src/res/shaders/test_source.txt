@@ -1,0 +1,8 @@
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+#ifndef __SHADERTOY_DESKTOP__
+    fragColor = vec4(1.,0.,0.,1.);
+#else
+    fragColor = vec4(__FRAG_UV,0.,1.);
+#endif
+}
